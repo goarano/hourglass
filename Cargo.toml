@@ -1,0 +1,6 @@
+[package]
+name = "hourglass"
+version = "0.1.0"
+authors = ["Jan <goarano@gmail.com>"]
+
+[dependencies]
