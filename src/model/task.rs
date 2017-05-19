@@ -1,10 +1,8 @@
-use data::datetime::DateTime;
-use data::task::Task;
+use model::datetime::DateTime;
 
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Serialize, Deserialize)]
-pub struct Project {
+pub struct Task {
     pub name: String,
-    pub tasks: Vec<Task>,
     pub created: DateTime,
     pub last_used: DateTime
 }
